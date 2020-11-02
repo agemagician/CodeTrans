@@ -69,7 +69,7 @@ How to use CodeTrans:
 <a name="prediction"></a>
  * <b>🧠&nbsp; Prediction:</b><br/>
  Please check:
- [Prediction Section](https://github.com/agemagician/CodeTrans/tree/master/Prediction). More information coming soon.
+ [Prediction Section](https://github.com/agemagician/CodeTrans/tree/master/prediction). More information coming soon.
   
 <a name="code-generation"></a>
  * <b>⚗️&nbsp; Code Sequences Generation:</b><br/>
