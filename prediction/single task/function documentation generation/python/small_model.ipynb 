@@ -7,7 +7,7 @@
       "provenance": [],
       "collapsed_sections": [],
       "toc_visible": true,
-      "authorship_tag": "ABX9TyMvL4k/Bw8X7fLcnOa//yhv",
+      "authorship_tag": "ABX9TyP1bW0Ilt46sTLJ/rCnheyZ",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -341,11 +341,11 @@
         "inputs_path = 'input.txt'\n",
         "with tf.io.gfile.GFile(inputs_path, \"w\") as f:\n",
         "  for c in codes:\n",
-        "    f.write(\"function documentation generation javascript: %s\\n\" % c)\n",
+        "    f.write(\"function documentation generation python: %s\\n\" % c)\n",
         "\n",
         "predict_outputs_path = 'MtfModel-output.txt'\n"
       ],
-      "execution_count": 6,
+      "execution_count": 9,
       "outputs": []
     },
     {
@@ -361,7 +361,7 @@
       "cell_type": "code",
       "metadata": {
         "id": "cdThL03VDNX3",
-        "outputId": "d6bcce1b-2306-4613-8600-ada6c2c4bbce",
+        "outputId": "3efd83ac-7552-49cf-e98d-ea36efb6b01f",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -378,7 +378,7 @@
         "    temperature=0,\n",
         ")"
       ],
-      "execution_count": 7,
+      "execution_count": 10,
       "outputs": [
         {
           "output_type": "stream",
@@ -592,14 +592,14 @@
             "INFO:tensorflow:Done running local_init_op.\n",
             "INFO:tensorflow:Before copy master to slices.\n",
             "INFO:tensorflow:Done with copy master to slices.\n",
-            "INFO:tensorflow:decoded 0: b'function documentation generation javascript: def e ( message , exit_code = None ) : print_log ( message , YELLOW , BOLD ) if exit_code is not None : sys . exit ( exit_code )'\n",
-            "INFO:tensorflow:            -> b'Prints a message and exits'\n",
-            "INFO:tensorflow:decoded 1: b'function documentation generation javascript: def e ( message , exit_code = None ) : print_log ( message , YELLOW , BOLD ) if exit_code is not None : sys . exit ( exit_code )'\n",
-            "INFO:tensorflow:            -> b'Prints a message and exits'\n",
-            "INFO:tensorflow:decoded 2: b'function documentation generation javascript: def e ( message , exit_code = None ) : print_log ( message , YELLOW , BOLD ) if exit_code is not None : sys . exit ( exit_code )'\n",
-            "INFO:tensorflow:            -> b'Prints a message and exits'\n",
-            "INFO:tensorflow:decoded 4: b'function documentation generation javascript: def e ( message , exit_code = None ) : print_log ( message , YELLOW , BOLD ) if exit_code is not None : sys . exit ( exit_code )'\n",
-            "INFO:tensorflow:            -> b'Prints a message and exits'\n",
+            "INFO:tensorflow:decoded 0: b'function documentation generation python: def e ( message , exit_code = None ) : print_log ( message , YELLOW , BOLD ) if exit_code is not None : sys . exit ( exit_code )'\n",
+            "INFO:tensorflow:            -> b'Prints an error and exits with an optional exit code .'\n",
+            "INFO:tensorflow:decoded 1: b'function documentation generation python: def e ( message , exit_code = None ) : print_log ( message , YELLOW , BOLD ) if exit_code is not None : sys . exit ( exit_code )'\n",
+            "INFO:tensorflow:            -> b'Prints an error and exits with an optional exit code .'\n",
+            "INFO:tensorflow:decoded 2: b'function documentation generation python: def e ( message , exit_code = None ) : print_log ( message , YELLOW , BOLD ) if exit_code is not None : sys . exit ( exit_code )'\n",
+            "INFO:tensorflow:            -> b'Prints an error and exits with an optional exit code .'\n",
+            "INFO:tensorflow:decoded 4: b'function documentation generation python: def e ( message , exit_code = None ) : print_log ( message , YELLOW , BOLD ) if exit_code is not None : sys . exit ( exit_code )'\n",
+            "INFO:tensorflow:            -> b'Prints an error and exits with an optional exit code .'\n",
             "INFO:tensorflow:prediction_loop marked as finished\n",
             "INFO:tensorflow:prediction_loop marked as finished\n"
           ],
@@ -620,7 +620,7 @@
       "cell_type": "code",
       "metadata": {
         "id": "Fov0lPWdD72H",
-        "outputId": "2b0effb1-66c9-49f9-bea4-aa3d720ee9bf",
+        "outputId": "4c1c31f2-b30d-42e7-bd2a-b17ef1604132",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
@@ -634,7 +634,7 @@
         "      print(\"Code for prediction: \" + c + '\\n')\n",
         "      print(\"Generated Documentation: \" + d)\n"
       ],
-      "execution_count": 8,
+      "execution_count": 11,
       "outputs": [
         {
           "output_type": "stream",
@@ -644,7 +644,7 @@
             "\n",
             "Code for prediction: def e ( message , exit_code = None ) : print_log ( message , YELLOW , BOLD ) if exit_code is not None : sys . exit ( exit_code )\n",
             "\n",
-            "Generated Documentation: b'Prints a message and exits'\n",
+            "Generated Documentation: b'Prints an error and exits with an optional exit code .'\n",
             "\n"
           ],
           "name": "stdout"
