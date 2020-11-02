@@ -4,7 +4,7 @@
 
 <br/>
 
-[CodeTrans](https://github.com/agemagician/CodeTrans/) is providing **state of the art pre-trained models for source code**. CodeTrans was trained on ** several Nvidia RTX 8000 GPUs** and **couple of Google TPUs** using various **State of the Art Transformers Models**.
+[CodeTrans](https://github.com/agemagician/CodeTrans/) is providing **state of the art pre-trained models for source code**. CodeTrans was trained on **several Nvidia RTX 8000 GPUs** and **couple of Google TPUs** using various **State of the Art Transformers Models**.
 
 Soon you will be able to gave a look at our paper [CodeTrans: cracking the languages of computer’s code through self-supervised deep learning and high performance computing]<!--(https://www.biorxiv.org/content/10.1101/2020.07.12.199554v2)--> for more information about our work.
 
@@ -221,7 +221,7 @@ Nvidia       |      Google  |      Google   | Software Campus
 
 <a name="license"></a>
 ## 📘&nbsp; License
-The ProtTrans pretrained models are released under the under terms of the [MIT License](LICENSE).
+The CodeTrans pretrained models are released under the under terms of the [MIT License](LICENSE).
 
 <a name="citation"></a>
 ## ✏️&nbsp; Citation
