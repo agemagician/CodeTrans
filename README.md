@@ -21,7 +21,7 @@ Table of Contents
 =================
 * [ ⌛️&nbsp; Models Availability](#models)
 * [ 🚀&nbsp; Usage ](#usage)
-  * [ 🧬&nbsp; Feature Extraction (FE)](#feature-extraction)
+  * [ 🤖&nbsp; Feature Extraction (FE)](#feature-extraction)
   * [ 💥&nbsp; Fine Tuning (FT)](#fine-tuning)
   * [ 🧠&nbsp; Prediction](#prediction)
   * [ ⚗️&nbsp; Source Code Generation ](#protein-generation)
@@ -59,7 +59,7 @@ Table of Contents
 How to use CodeTrans:
 
 <a name="feature-extraction"></a>
- * <b>🧬&nbsp; Feature Extraction (FE):</b><br/>
+ * <b>🤖&nbsp; Feature Extraction (FE):</b><br/>
  coming soon.
 
 <a name="fine-tuning"></a>
@@ -87,88 +87,112 @@ coming soon.
 ## 📊&nbsp; Expected Results 
 
 <a name="function-documentation-generation"></a>
- * <b>🧬&nbsp; Function Documentation Generation (Bleu):</b><br/>
+ * <b>💻&nbsp; Function Documentation Generation (Bleu):</b><br/>
  
 |   Language / Model   |     Python     |      Java      |       Go       |      Php       |      Ruby      |   JavaScript   |
 | -------------------- | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
-|   CodeT5-Small-ST    |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
-|   CodeT5-Base-ST     |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |   
-|   CodeT5-Small-TF    |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
-|   CodeT5-Base-TF     |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
-|   CodeT5-Large-TF    |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
-|   CodeT5-Small-MT    |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
-|   CodeT5-Base-MT     |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
-|   CodeT5-Large-MT    |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       | 
+|   CodeT5-ST-Small    |      17.31     |     16.65      |     16.89      |     23.05      |      9.19      |      13.7      |
+|   CodeT5-ST-Base     |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |   
+|   CodeT5-TF-Small    |   **19.93**    |     19.48      |     18.88      |     25.35      |     13.15      |      17.23     |
+|   CodeT5-TF-Base     |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
+|   CodeT5-TF-Large    |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
+|   CodeT5-MT-Small    |     19.64      |     19.00      |     19.15      |     24.68      |   **14.91**    |      15.26     |
+|   CodeT5-MT-Base     |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
+|   CodeT5-MT-Large    |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
+|   CodeT5-MT-TF-Small |     19.77      |   **20.04**    |   **19.36**    |   **25.55**    |     13.70      |    **17.24**   |
+|   CodeT5-MT-TF-Base  |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
+|   CodeT5-MT-TF-Large |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
+|   State of the art   |     19.06      |     17.65      |     18.07      |     25.16      |     12.16      |      14.90     |
  
 <a name="source-code-summarization"></a>
- * <b>🧬&nbsp; Source Code Summarization (Bleu):</b><br/>
+ * <b>💻&nbsp; Source Code Summarization (Bleu):</b><br/>
  
 |   Language / Model   |     Python     |       SQL      |       C#       |
 | -------------------- | :------------: | :------------: | :------------: |
-|   CodeT5-Small-ST    |       XX       |       XX       |       XX       |
-|   CodeT5-Base-ST     |       XX       |       XX       |       XX       | 
-|   CodeT5-Small-TF    |       XX       |       XX       |       XX       |
-|   CodeT5-Base-TF     |       XX       |       XX       |       XX       |
-|   CodeT5-Large-TF    |       XX       |       XX       |       XX       |
-|   CodeT5-Small-MT    |       XX       |       XX       |       XX       |
-|   CodeT5-Base-MT     |       XX       |       XX       |       XX       |
-|   CodeT5-Large-MT    |       XX       |       XX       |       XX       |
+|   CodeT5-ST-Small    |      8.45      |     17.55      |     19.74      |
+|   CodeT5-ST-Base     |       XX       |       XX       |       XX       | 
+|   CodeT5-TF-Small    |     10.06      |     17.71      |     20.40      |
+|   CodeT5-TF-Base     |       XX       |       XX       |       XX       |
+|   CodeT5-TF-Large    |       XX       |       XX       |       XX       |
+|   CodeT5-MT-Small    |   **13.11**    |    **19.15**   |    **22.39**   |
+|   CodeT5-MT-Base     |       XX       |       XX       |       XX       |
+|   CodeT5-MT-Large    |       XX       |       XX       |       XX       |
+|   CodeT5-MT-TF-Small |      12.1      |     18.25      |     22.03      |
+|   CodeT5-MT-TF-Base  |       XX       |       XX       |       XX       |
+|   CodeT5-MT-TF-Large |       XX       |       XX       |       XX       |
+|   State of the art   |       XX       |     18.40      |     20.05      |
 
 <a name="code-comment-generation"></a>
- * <b>🧬&nbsp; Code Comment Generation (Bleu):</b><br/>
+ * <b>💻&nbsp; Code Comment Generation (Bleu):</b><br/>
  
 |   Language / Model   |      Java      |
 | -------------------- | :------------: |
-|   CodeT5-Small-ST    |       XX       |
-|   CodeT5-Base-ST     |       XX       |
-|   CodeT5-Small-TF    |       XX       |
-|   CodeT5-Base-TF     |       XX       |
-|   CodeT5-Large-TF    |       XX       |
-|   CodeT5-Small-MT    |       XX       |
-|   CodeT5-Base-MT     |       XX       |
-|   CodeT5-Large-MT    |       XX       |
+|   CodeT5-ST-Small    |     37.98      |
+|   CodeT5-ST-Base     |       XX       |
+|   CodeT5-TF-Small    |   **38.56**    |
+|   CodeT5-TF-Base     |       XX       |
+|   CodeT5-TF-Large    |       XX       |
+|   CodeT5-MT-Small    |     20.15      |
+|   CodeT5-MT-Base     |       XX       |
+|   CodeT5-MT-Large    |       XX       |
+|   CodeT5-MT-TF-Small |     38.37      |
+|   CodeT5-MT-TF-Base  |       XX       |
+|   CodeT5-MT-TF-Large |       XX       |
+|   State of the art   |     38.17      |
 
 <a name="commit-message-generation"></a>
- * <b>🧬&nbsp; Commit Message Generation (Bleu):</b><br/>
+ * <b>💻&nbsp; Commit Message Generation (Bleu):</b><br/>
  
 |   Language / Model   |      Java      |
 | -------------------- | :------------: |
-|   CodeT5-Small-ST    |       XX       |
-|   CodeT5-Base-ST     |       XX       |
-|   CodeT5-Small-TF    |       XX       |
-|   CodeT5-Base-TF     |       XX       |
-|   CodeT5-Large-TF    |       XX       |
-|   CodeT5-Small-MT    |       XX       |
-|   CodeT5-Base-MT     |       XX       |
-|   CodeT5-Large-MT    |       XX       |
+|   CodeT5-ST-Small    |     39.61      |
+|   CodeT5-ST-Base     |       XX       |
+|   CodeT5-TF-Small    |   **44.216**   |
+|   CodeT5-TF-Base     |       XX       |
+|   CodeT5-TF-Large    |       XX       |
+|   CodeT5-MT-Small    |     36.166     |
+|   CodeT5-MT-Base     |       XX       |
+|   CodeT5-MT-Large    |       XX       |
+|   CodeT5-MT-TF-Small |     43.96      |
+|   CodeT5-MT-TF-Base  |       XX       |
+|   CodeT5-MT-TF-Large |       XX       |
+|   State of the art   |     32.82      |
 
 <a name="api-sequence-recommendation"></a>
- * <b>🧬&nbsp; API Sequence Recommendation (Bleu):</b><br/>
+ * <b>💻&nbsp; API Sequence Recommendation (Bleu):</b><br/>
  
 |   Language / Model   |      Java      |
 | -------------------- | :------------: |
-|   CodeT5-Small-ST    |       XX       |
-|   CodeT5-Base-ST     |       XX       |
-|   CodeT5-Small-TF    |       XX       |
-|   CodeT5-Base-TF     |       XX       |
-|   CodeT5-Large-TF    |       XX       |
-|   CodeT5-Small-MT    |       XX       |
-|   CodeT5-Base-MT     |       XX       |
-|   CodeT5-Large-MT    |       XX       |
+|   CodeT5-ST-Small    |     68.709     |
+|   CodeT5-ST-Base     |       XX       |
+|   CodeT5-TF-Small    |     68.90      |
+|   CodeT5-TF-Base     |       XX       |
+|   CodeT5-TF-Large    |       XX       |
+|   CodeT5-MT-Small    |     58.43      |
+|   CodeT5-MT-Base     |       XX       |
+|   CodeT5-MT-Large    |       XX       |
+|   CodeT5-MT-TF-Small |   **69.29**    |
+|   CodeT5-MT-TF-Base  |       XX       |
+|   CodeT5-MT-TF-Large |       XX       |
+|   State of the art   |     54.42      |
 
 <a name="programming-language-and-synthesis"></a>
- * <b>🧬&nbsp; Programming Language and Synthesis (Accuarcy):</b><br/>
+ * <b>💻&nbsp; Programming Language and Synthesis (Accuarcy):</b><br/>
  
 |   Language / Model   |      English   |
 | -------------------- | :------------: |
-|   CodeT5-Small-ST    |       XX       |
-|   CodeT5-Base-ST     |       XX       |
-|   CodeT5-Small-TF    |       XX       |
-|   CodeT5-Base-TF     |       XX       |
-|   CodeT5-Large-TF    |       XX       |
-|   CodeT5-Small-MT    |       XX       |
-|   CodeT5-Base-MT     |       XX       |
-|   CodeT5-Large-MT    |       XX       |
+|   CodeT5-ST-Small    |     89.43      |
+|   CodeT5-ST-Base     |       XX       |
+|   CodeT5-TF-Small    |     90.30      |
+|   CodeT5-TF-Base     |       XX       |
+|   CodeT5-TF-Large    |       XX       |
+|   CodeT5-MT-Small    |     82.88      |
+|   CodeT5-MT-Base     |       XX       |
+|   CodeT5-MT-Large    |       XX       |
+|   CodeT5-MT-TF-Small |   **90.31**    |
+|   CodeT5-MT-TF-Base  |       XX       |
+|   CodeT5-MT-TF-Large |       XX       |
+|   State of the art   |     85.80      |
 
 <a name="community"></a>
 ## ❤️&nbsp; Community and Contributions
