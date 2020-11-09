@@ -15,7 +15,7 @@ Soon you will be able to gave a look at our paper [CodeTrans: cracking the langu
 <br/>
 
 
-This repository will be updated regulary with **new pre-trained models for source code** as part of supporting **software engineering** community in general, and **AI research on source code** specifically.
+This repository will be updated regulary with **new pre-trained models for source code** as part of supporting **software engineering** community in general, and **Source Code for Covid-19 research** specifically.
 
 Table of Contents
 =================
@@ -239,9 +239,9 @@ For prediction, [Text to Text](https://github.com/google-research/text-to-text-t
 <a name="sponsors"></a>
 ## 💰&nbsp; Sponsors
 
-Nvidia       |      Google  |      Google   | Software Campus
+Google       |      Google  |      Nvidia   | Software Campus
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/agemagician/ProtTrans/blob/master/images/1200px-Nvidia_image_logo.svg.png?raw=true) | ![](https://github.com/agemagician/ProtTrans/blob/master/images/google-cloud-logo.jpg?raw=true) | ![](https://github.com/agemagician/ProtTrans/blob/master/images/tfrc.png?raw=true) | ![](https://github.com/agemagician/ProtTrans/blob/master/images/SOFTWARE_CAMPUS_logo_cmyk.jpg?raw=true)
+![](https://github.com/agemagician/ProtTrans/blob/master/images/google-cloud-logo.jpg?raw=true) | ![](https://github.com/agemagician/ProtTrans/blob/master/images/tfrc.png?raw=true)  | ![](https://github.com/agemagician/ProtTrans/blob/master/images/1200px-Nvidia_image_logo.svg.png?raw=true)| ![](https://github.com/agemagician/ProtTrans/blob/master/images/SOFTWARE_CAMPUS_logo_cmyk.jpg?raw=true)
 
 <a name="license"></a>
 ## 📘&nbsp; License
