@@ -92,7 +92,7 @@ coming soon.
 |   Language / Model   |     Python     |      Java      |       Go       |      Php       |      Ruby      |   JavaScript   |
 | -------------------- | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
 |   CodeT5-ST-Small    |      17.31     |     16.65      |     16.89      |     23.05      |      9.19      |      13.7      |
-|   CodeT5-ST-Base     |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |   
+|   CodeT5-ST-Base     |      16.86     |     17.17      |     17.16      |     22.98      |      8.23      |      13.17     |   
 |   CodeT5-TF-Small    |   **19.93**    |     19.48      |     18.88      |     25.35      |     13.15      |      17.23     |
 |   CodeT5-TF-Base     |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
 |   CodeT5-TF-Large    |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
@@ -110,7 +110,7 @@ coming soon.
 |   Language / Model   |     Python     |       SQL      |       C#       |
 | -------------------- | :------------: | :------------: | :------------: |
 |   CodeT5-ST-Small    |      8.45      |     17.55      |     19.74      |
-|   CodeT5-ST-Base     |       XX       |       XX       |       XX       | 
+|   CodeT5-ST-Base     |      9.12      |       15       |     18.65      | 
 |   CodeT5-TF-Small    |     10.06      |     17.71      |     20.40      |
 |   CodeT5-TF-Base     |       XX       |       XX       |       XX       |
 |   CodeT5-TF-Large    |       XX       |       XX       |       XX       |
@@ -128,7 +128,7 @@ coming soon.
 |   Language / Model   |      Java      |
 | -------------------- | :------------: |
 |   CodeT5-ST-Small    |     37.98      |
-|   CodeT5-ST-Base     |       XX       |
+|   CodeT5-ST-Base     |     38.07      |
 |   CodeT5-TF-Small    |   **38.56**    |
 |   CodeT5-TF-Base     |       XX       |
 |   CodeT5-TF-Large    |       XX       |
@@ -146,7 +146,7 @@ coming soon.
 |   Language / Model   |      Java      |
 | -------------------- | :------------: |
 |   CodeT5-ST-Small    |     39.61      |
-|   CodeT5-ST-Base     |       XX       |
+|   CodeT5-ST-Base     |     38.67      |
 |   CodeT5-TF-Small    |   **44.216**   |
 |   CodeT5-TF-Base     |       XX       |
 |   CodeT5-TF-Large    |       XX       |
@@ -163,15 +163,15 @@ coming soon.
  
 |   Language / Model   |      Java      |
 | -------------------- | :------------: |
-|   CodeT5-ST-Small    |     68.709     |
-|   CodeT5-ST-Base     |       XX       |
+|   CodeT5-ST-Small    |     68.71      |
+|   CodeT5-ST-Base     |   **70.45**    |
 |   CodeT5-TF-Small    |     68.90      |
 |   CodeT5-TF-Base     |       XX       |
 |   CodeT5-TF-Large    |       XX       |
 |   CodeT5-MT-Small    |     58.43      |
 |   CodeT5-MT-Base     |       XX       |
 |   CodeT5-MT-Large    |       XX       |
-|   CodeT5-MT-TF-Small |   **69.29**    |
+|   CodeT5-MT-TF-Small |     69.29      |
 |   CodeT5-MT-TF-Base  |       XX       |
 |   CodeT5-MT-TF-Large |       XX       |
 |   State of the art   |     54.42      |
@@ -182,7 +182,7 @@ coming soon.
 |   Language / Model   |      English   |
 | -------------------- | :------------: |
 |   CodeT5-ST-Small    |     89.43      |
-|   CodeT5-ST-Base     |       XX       |
+|   CodeT5-ST-Base     |     89.65      |
 |   CodeT5-TF-Small    |     90.30      |
 |   CodeT5-TF-Base     |       XX       |
 |   CodeT5-TF-Large    |       XX       |
@@ -221,7 +221,7 @@ For prediction, [Text to Text](https://github.com/google-research/text-to-text-t
  
 | Ahmed Elnaggar       |       Wei Ding  |  Florian Matthes | Burkhard Rost |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-| <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/ElnaggarAhmend.jpg?raw=true"> | <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/female.png?raw=true"> | <img width=120/ src="https://wwwmatthes.in.tum.de/file/swwvbhnquwxq/Sebis-Public-Website/Team/20140717_7D_%2047488-3-florian-300x300.jpg"> | <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/B.Rost.jpg?raw=true"> |
+| <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/ElnaggarAhmend.jpg?raw=true"> | <img width=120/ src="https://github.com/matchlesswei/application_project_nlp_company_description/blob/master/image/Wei_Ding.jpg?raw=true"> | <img width=120/ src="https://wwwmatthes.in.tum.de/file/swwvbhnquwxq/Sebis-Public-Website/Team/20140717_7D_%2047488-3-florian-300x300.jpg"> | <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/B.Rost.jpg?raw=true"> |
 
 * <b>Google:</b><br/>
 
