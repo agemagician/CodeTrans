@@ -93,14 +93,14 @@ coming soon.
 | -------------------- | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
 |   CodeT5-ST-Small    |      17.31     |     16.65      |     16.89      |     23.05      |      9.19      |      13.7      |
 |   CodeT5-ST-Base     |      16.86     |     17.17      |     17.16      |     22.98      |      8.23      |      13.17     |   
-|   CodeT5-TF-Small    |   **19.93**    |     19.48      |     18.88      |     25.35      |     13.15      |      17.23     |
-|   CodeT5-TF-Base     |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
+|   CodeT5-TF-Small    |      19.93     |     19.48      |     18.88      |     25.35      |     13.15      |      17.23     |
+|   CodeT5-TF-Base     |      20.26     |     21.19      |   **19.50**    |     25.84      |     14.07      |      18.25     |
 |   CodeT5-TF-Large    |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
-|   CodeT5-MT-Small    |     19.64      |     19.00      |     19.15      |     24.68      |   **14.91**    |      15.26     |
-|   CodeT5-MT-Base     |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
+|   CodeT5-MT-Small    |     19.64      |     19.00      |     19.15      |     24.68      |     14.91      |      15.26     |
+|   CodeT5-MT-Base     |   **20.39**    |   **21.22**    |     19.43      |   **26.23**    |   **15.26**    |      16.11     |
 |   CodeT5-MT-Large    |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
-|   CodeT5-MT-TF-Small |     19.77      |   **20.04**    |   **19.36**    |   **25.55**    |     13.70      |    **17.24**   |
-|   CodeT5-MT-TF-Base  |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
+|   CodeT5-MT-TF-Small |     19.77      |     20.04      |     19.36      |     25.55      |     13.70      |      17.24     |
+|   CodeT5-MT-TF-Base  |     19.77      |     21.12      |     18.86      |     25.79      |     14.24      |    **18.62**   |
 |   CodeT5-MT-TF-Large |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
 |   State of the art   |     19.06      |     17.65      |     18.07      |     25.16      |     12.16      |      14.90     |
  
@@ -112,15 +112,15 @@ coming soon.
 |   CodeT5-ST-Small    |      8.45      |     17.55      |     19.74      |
 |   CodeT5-ST-Base     |      9.12      |       15       |     18.65      | 
 |   CodeT5-TF-Small    |     10.06      |     17.71      |     20.40      |
-|   CodeT5-TF-Base     |       XX       |       XX       |       XX       |
+|   CodeT5-TF-Base     |     10.94      |     17.66      |     21.12      |
 |   CodeT5-TF-Large    |       XX       |       XX       |       XX       |
-|   CodeT5-MT-Small    |   **13.11**    |    **19.15**   |    **22.39**   |
-|   CodeT5-MT-Base     |       XX       |       XX       |       XX       |
+|   CodeT5-MT-Small    |     13.11      |     19.15      |     22.39      |
+|   CodeT5-MT-Base     |   **13.37**    |   **19.24**    |   **23.20**    |
 |   CodeT5-MT-Large    |       XX       |       XX       |       XX       |
-|   CodeT5-MT-TF-Small |      12.1      |     18.25      |     22.03      |
-|   CodeT5-MT-TF-Base  |       XX       |       XX       |       XX       |
+|   CodeT5-MT-TF-Small |     12.10      |     18.25      |     22.03      |
+|   CodeT5-MT-TF-Base  |     10.64      |     16.91      |     21.40      |
 |   CodeT5-MT-TF-Large |       XX       |       XX       |       XX       |
-|   State of the art   |       XX       |     18.40      |     20.05      |
+|   State of the art   |       --       |     18.40      |     20.50      |
 
 <a name="code-comment-generation"></a>
  * <b>💻&nbsp; Code Comment Generation (Bleu):</b><br/>
@@ -129,14 +129,14 @@ coming soon.
 | -------------------- | :------------: |
 |   CodeT5-ST-Small    |     37.98      |
 |   CodeT5-ST-Base     |     38.07      |
-|   CodeT5-TF-Small    |   **38.56**    |
-|   CodeT5-TF-Base     |       XX       |
+|   CodeT5-TF-Small    |     38.56      |
+|   CodeT5-TF-Base     |   **39.06**    |
 |   CodeT5-TF-Large    |       XX       |
 |   CodeT5-MT-Small    |     20.15      |
-|   CodeT5-MT-Base     |       XX       |
+|   CodeT5-MT-Base     |     27.44      |
 |   CodeT5-MT-Large    |       XX       |
 |   CodeT5-MT-TF-Small |     38.37      |
-|   CodeT5-MT-TF-Base  |       XX       |
+|   CodeT5-MT-TF-Base  |     38.90      |
 |   CodeT5-MT-TF-Large |       XX       |
 |   State of the art   |     38.17      |
 
@@ -147,14 +147,14 @@ coming soon.
 | -------------------- | :------------: |
 |   CodeT5-ST-Small    |     39.61      |
 |   CodeT5-ST-Base     |     38.67      |
-|   CodeT5-TF-Small    |   **44.216**   |
-|   CodeT5-TF-Base     |       XX       |
+|   CodeT5-TF-Small    |   **44.22**    |
+|   CodeT5-TF-Base     |     44.17      |
 |   CodeT5-TF-Large    |       XX       |
-|   CodeT5-MT-Small    |     36.166     |
-|   CodeT5-MT-Base     |       XX       |
+|   CodeT5-MT-Small    |     36.17      |
+|   CodeT5-MT-Base     |     39.25      |
 |   CodeT5-MT-Large    |       XX       |
 |   CodeT5-MT-TF-Small |     43.96      |
-|   CodeT5-MT-TF-Base  |       XX       |
+|   CodeT5-MT-TF-Base  |     44.19      |
 |   CodeT5-MT-TF-Large |       XX       |
 |   State of the art   |     32.82      |
 
@@ -164,33 +164,33 @@ coming soon.
 |   Language / Model   |      Java      |
 | -------------------- | :------------: |
 |   CodeT5-ST-Small    |     68.71      |
-|   CodeT5-ST-Base     |   **70.45**    |
+|   CodeT5-ST-Base     |     70.45      |
 |   CodeT5-TF-Small    |     68.90      |
-|   CodeT5-TF-Base     |       XX       |
+|   CodeT5-TF-Base     |     72.11      |
 |   CodeT5-TF-Large    |       XX       |
 |   CodeT5-MT-Small    |     58.43      |
-|   CodeT5-MT-Base     |       XX       |
+|   CodeT5-MT-Base     |     67.97      |
 |   CodeT5-MT-Large    |       XX       |
 |   CodeT5-MT-TF-Small |     69.29      |
 |   CodeT5-MT-TF-Base  |       XX       |
-|   CodeT5-MT-TF-Large |       XX       |
+|   CodeT5-MT-TF-Large |   **72.89**    |
 |   State of the art   |     54.42      |
 
 <a name="programming-language-and-synthesis"></a>
  * <b>💻&nbsp; Programming Language and Synthesis (Accuarcy):</b><br/>
  
-|   Language / Model   |      English   |
+|   Language / Model   |      LISP      |
 | -------------------- | :------------: |
 |   CodeT5-ST-Small    |     89.43      |
 |   CodeT5-ST-Base     |     89.65      |
 |   CodeT5-TF-Small    |     90.30      |
-|   CodeT5-TF-Base     |       XX       |
+|   CodeT5-TF-Base     |     90.24      |
 |   CodeT5-TF-Large    |       XX       |
 |   CodeT5-MT-Small    |     82.88      |
-|   CodeT5-MT-Base     |       XX       |
+|   CodeT5-MT-Base     |     86.99      |
 |   CodeT5-MT-Large    |       XX       |
 |   CodeT5-MT-TF-Small |   **90.31**    |
-|   CodeT5-MT-TF-Base  |       XX       |
+|   CodeT5-MT-TF-Base  |     90.30      |
 |   CodeT5-MT-TF-Large |       XX       |
 |   State of the art   |     85.80      |
 
