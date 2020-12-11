@@ -172,8 +172,8 @@ coming soon.
 |   CodeT5-MT-Base     |     67.97      |
 |   CodeT5-MT-Large    |       XX       |
 |   CodeT5-MT-TF-Small |     69.29      |
-|   CodeT5-MT-TF-Base  |       XX       |
-|   CodeT5-MT-TF-Large |   **72.89**    |
+|   CodeT5-MT-TF-Base  |   **72.89**    |
+|   CodeT5-MT-TF-Large |       XX       |
 |   State of the art   |     54.42      |
 
 <a name="programming-language-and-synthesis"></a>
