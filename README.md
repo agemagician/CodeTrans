@@ -94,7 +94,7 @@ coming soon.
 |   CodeT5-ST-Small    |      17.31     |     16.65      |     16.89      |     23.05      |      9.19      |      13.7      |
 |   CodeT5-ST-Base     |      16.86     |     17.17      |     17.16      |     22.98      |      8.23      |      13.17     |   
 |   CodeT5-TF-Small    |      19.93     |     19.48      |     18.88      |     25.35      |     13.15      |      17.23     |
-|   CodeT5-TF-Base     |      20.26     |     21.19      |   **19.50**    |     25.84      |     14.07      |      18.25     |
+|   CodeT5-TF-Base     |      20.26     |     20.19      |   **19.50**    |     25.84      |     14.07      |      18.25     |
 |   CodeT5-TF-Large    |       XX       |       XX       |       XX       |       XX       |       XX       |       XX       |
 |   CodeT5-MT-Small    |     19.64      |     19.00      |     19.15      |     24.68      |     14.91      |      15.26     |
 |   CodeT5-MT-Base     |   **20.39**    |   **21.22**    |     19.43      |   **26.23**    |   **15.26**    |      16.11     |
@@ -110,7 +110,7 @@ coming soon.
 |   Language / Model   |     Python     |       SQL      |       C#       |
 | -------------------- | :------------: | :------------: | :------------: |
 |   CodeT5-ST-Small    |      8.45      |     17.55      |     19.74      |
-|   CodeT5-ST-Base     |      9.12      |       15       |     18.65      | 
+|   CodeT5-ST-Base     |      9.12      |     15.00      |     18.65      | 
 |   CodeT5-TF-Small    |     10.06      |     17.71      |     20.40      |
 |   CodeT5-TF-Base     |     10.94      |     17.66      |     21.12      |
 |   CodeT5-TF-Large    |       XX       |       XX       |       XX       |
@@ -156,7 +156,7 @@ coming soon.
 |   CodeT5-MT-TF-Small |     43.96      |
 |   CodeT5-MT-TF-Base  |     44.19      |
 |   CodeT5-MT-TF-Large |       XX       |
-|   State of the art   |     32.82      |
+|   State of the art   |     32.81      |
 
 <a name="api-sequence-recommendation"></a>
  * <b>💻&nbsp; API Sequence Recommendation (Bleu):</b><br/>
