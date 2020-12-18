@@ -47,11 +47,7 @@ Table of Contents
 <a name="models"></a>
 ## ⌛️&nbsp; Models Availability
 
-|          Model              |       Tensorflow      |
-| --------------------------- | :-------------------: |
-| CodeT5-Small                |     coming soon       |
-| CodeT5-Base                 |     coming soon       |
-| CodeT5-Large                |     coming soon       |
+All CodeTrans original Tensorflow checkpoints is downloadable from this [link](https://www.dropbox.com/sh/488bq2of10r4wvw/AABrmE2V8lc8tRqV-qtLu4pUa?dl=0).
 
 <a name="usage"></a>
 ## 🚀&nbsp; Usage  
