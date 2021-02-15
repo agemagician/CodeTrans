@@ -123,17 +123,17 @@ coming soon.
  
 |   Language / Model   |      Java      |
 | -------------------- | :------------: |
-|   CodeT5-ST-Small    |     37.98      |
-|   CodeT5-ST-Base     |     38.07      |
-|   CodeT5-TF-Small    |     38.56      |
-|   CodeT5-TF-Base     |     39.06      |
-|   CodeT5-TF-Large    |   **39.50**    |
-|   CodeT5-MT-Small    |     20.15      |
-|   CodeT5-MT-Base     |     27.44      |
-|   CodeT5-MT-Large    |     34.69      |
-|   CodeT5-MT-TF-Small |     38.37      |
-|   CodeT5-MT-TF-Base  |     38.90      |
-|   CodeT5-MT-TF-Large |     39.25      |
+|   CodeTrans-ST-Small    |     37.98      |
+|   CodeTrans-ST-Base     |     38.07      |
+|   CodeTrans-TF-Small    |     38.56      |
+|   CodeTrans-TF-Base     |     39.06      |
+|   CodeTrans-TF-Large    |   **39.50**    |
+|   CodeTrans-MT-Small    |     20.15      |
+|   CodeTrans-MT-Base     |     27.44      |
+|   CodeTrans-MT-Large    |     34.69      |
+|   CodeTrans-MT-TF-Small |     38.37      |
+|   CodeTrans-MT-TF-Base  |     38.90      |
+|   CodeTrans-MT-TF-Large |     39.25      |
 |   State of the art   |     38.17      |
 
 <a name="commit-message-generation"></a>
