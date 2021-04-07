@@ -6,7 +6,7 @@
 
 [CodeTrans](https://github.com/agemagician/CodeTrans/) is providing **state of the art pre-trained models for source code**. CodeTrans was trained on **several Nvidia RTX 8000 GPUs** and **couple of Google TPUs** using various **State of the Art Transformers Models**.
 
-Soon you will be able to gave a look at our paper [CodeTrans: cracking the languages of computer’s code through self-supervised deep learning and high performance computing]<!--(https://www.biorxiv.org/content/10.1101/2020.07.12.199554v2)--> for more information about our work.
+Take a look into our paper [CodeTrans: Towards Cracking the Language of Silicone's Code Through Self-Supervised Deep Learning and High Performance Computing](https://arxiv.org/abs/2104.02443) for more information about our work.
 
 <br/>
 <p align="center">
@@ -247,5 +247,12 @@ The CodeTrans pretrained models are released under the under terms of the [MIT L
 ## ✏️&nbsp; Citation
 If you use this code or our pretrained models for your publication, please cite the original paper:
 ```
-Soon
+@misc{elnaggar2021codetrans,
+      title={CodeTrans: Towards Cracking the Language of Silicone's Code Through Self-Supervised Deep Learning and High Performance Computing}, 
+      author={Ahmed Elnaggar and Wei Ding and Llion Jones and Tom Gibbs and Tamas Feher and Christoph Angerer and Silvia Severini and Florian Matthes and Burkhard Rost},
+      year={2021},
+      eprint={2104.02443},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
+}
 ```
