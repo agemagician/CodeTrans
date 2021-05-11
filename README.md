@@ -47,7 +47,7 @@ Table of Contents
 <a name="models"></a>
 ## ⌛️&nbsp; Models Availability
 
-All CodeTrans original Tensorflow checkpoints is downloadable from this [link](https://www.dropbox.com/sh/488bq2of10r4wvw/AABrmE2V8lc8tRqV-qtLu4pUa?dl=0).
+All CodeTrans original Tensorflow checkpoints are downloadable from this [link](https://www.dropbox.com/sh/488bq2of10r4wvw/AABrmE2V8lc8tRqV-qtLu4pUa?dl=0) and in the [Hugging Face model hub](https://huggingface.co/models?search=code_trans).
 
 <a name="usage"></a>
 ## 🚀&nbsp; Usage  
