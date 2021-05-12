@@ -173,7 +173,7 @@ coming soon.
 |   State of the art   |     54.42      |
 
 <a name="programming-language-and-synthesis"></a>
- * <b>💻&nbsp; Programming Language and Synthesis (Accuarcy):</b><br/>
+ * <b>💻&nbsp; Programming Language and Synthesis (Accuracy):</b><br/>
  
 |   Language / Model   |      LISP      |
 | -------------------- | :------------: |
