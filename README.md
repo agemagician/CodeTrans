@@ -49,6 +49,8 @@ Table of Contents
 
 All CodeTrans original Tensorflow checkpoints are downloadable from this [dropbox folder](https://www.dropbox.com/sh/488bq2of10r4wvw/AABrmE2V8lc8tRqV-qtLu4pUa?dl=0) and the pytorch checkpoints in the [Hugging Face model hub](https://huggingface.co/models?search=code_trans).
 
+You can download all the datasets used in this research from [dropbox folder](https://www.dropbox.com/sh/mzxa2dq30gnot29/AABIf7wPxH5Oe0PZHJ5jPV22a?dl=0).
+
 <a name="usage"></a>
 ## 🚀&nbsp; Usage  
 
